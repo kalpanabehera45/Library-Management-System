@@ -1,0 +1,23 @@
+<div align="center">
+    <h3> View Book Details</h3>
+    <table border=1>
+        <thead>
+            <tr>
+                <th> ID </th>
+                <th> Name </th>
+                <th> Price</th>
+                <th> Status </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr *ngFor="let book of bookdetails">
+                <td> {{book.id}} </td>
+                <td> {{book.name}} </td>
+                <td> {{book.price}} </td>
+                 <td>{{book.status}}</td>            
+            </tr>
+                
+        </tbody>      
+    </table>
+ </div>

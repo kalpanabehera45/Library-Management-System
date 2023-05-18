@@ -1,0 +1,16 @@
+<div align="center">
+    <h2> Delete Book Record </h2>
+    <br><br>
+  <form #deleteform="ngForm" (ngSubmit)="deletedata(deleteform)">
+    <div class="form-group">
+    <label>  ID : </label>
+    <input type="number" #id (ngModel)="id" name="id" id="id" class="form-class">
+    </div> <br>
+   
+    <div class="form-group">
+    <input type="submit" value="Delete" class="btn btn-primary w-100">
+    </div>
+  </form>
+</div>
+
+

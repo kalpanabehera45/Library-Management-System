@@ -1,0 +1,25 @@
+header {
+    padding: 10px 0px 10px 0px;
+    height:70px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 24px;
+    background-color: darkolivegreen;
+    animation-name: colorchange;
+    animation-duration: 1s;
+    animation-timing-function:step-start;
+    animation-delay: 1s;
+    animation-iteration-count:infinite;
+    animation-direction:normal;
+}
+@keyframes colorchange {
+    5% {background-color: lightgreen;}
+    10% {background-color: lightseagreen;}
+    20% {background-color: darkcyan;}
+    30% {background-color: darkgoldenrod;}
+    40% {background-color: darkgrey;}
+    50% {background-color: darkslategray;}
+    60% {background-color: lightcoral;}
+
+   70% {background-color: darkseagreen;}
+    100% {background-color: darkolivegreen;}
+}
